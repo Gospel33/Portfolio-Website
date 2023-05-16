@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+    header{
+        padding: 0;
+        min-height: 135vh !important;
+    }
+    header .rght-header{
+        padding: 0 !important;
+    }
+
+    .dash{
+        display: none;
+    }
+
+    .theme-btn{
+        width: 45px;
+        height: 45px;
+    }
+
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .lft-header{
+        .me{
+            width: 380px;
+            height: 400px;
+            border-radius: 50%;
+            margin-left: -20px;
+            margin-top: 20px;
+        }
+    }
+
+    .rght-header{
+        grid-row: 1;
+        width: 100%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .header-content .lft-header .image{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .about-con{
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        .rght-about{
+            padding-top: 2.5rem;
+            grid-template-columns: 1fr;
+        }
+        .lft-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stat{
+        .progress-bars{
+           grid-template-columns: 1fr;
+        }
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .rght-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+
+    .contact-item{
+          margin-left: -70px;
+    }
+
+    .contact-content-con .rght-contact .inpt-2{
+        flex-direction: column;
+    }
+    .contact-content-con .rght-contact .inpt-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 2.8rem;
+            }
+        }
+    }
+
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background: var(--gray-5);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+}
